@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <com.google.android.material.tabs.TabLayout
+        android:id="@+id/tablayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:tabIconTint="@color/teal_200"
+        app:tabIndicatorColor="#30F3DC"
+        app:tabTextColor="#00BCD4">
+
+        <com.google.android.material.tabs.TabItem
+            android:id="@+id/tab1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:icon="@drawable/ter"
+            android:text="@string/temperatura" />
+
+        <com.google.android.material.tabs.TabItem
+            android:id="@+id/tab2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:icon="@drawable/luzz"
+            android:text="@string/luz" />
+
+        <com.google.android.material.tabs.TabItem
+            android:id="@+id/tab3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:icon="@drawable/garage"
+            android:text="@string/puerta" />
+
+        <com.google.android.material.tabs.TabItem
+            android:id="@+id/tab4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:icon="@drawable/libron"
+            android:text="@string/registros" />
+    </com.google.android.material.tabs.TabLayout>
+</LinearLayout>

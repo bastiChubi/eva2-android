@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">basti</string>
+    <string name="btingresar">Ingresar</string>
+    <string name="todo">TODO</string>
+    <string name="temperatura">Temperatura</string>
+    <string name="luz">Luz</string>
+    <string name="puerta">Puerta</string>
+    <string name="registros">Registros</string>
+    <string name="btiproventilacion">Programar ventilación</string>
+    <string name="cancelar">Cancelar</string>
+    <string name="Guardar">Guardar</string>
+    <string name="Si">Si</string>
+    <string name="No">No</string>
+    <string name="cancelar1">Cancelar</string>
+    <string name="Guardar1">Guardar</string>
+    <string name="Tem1">Temperatura</string>
+    <string name="Ilumi1">Iluminacion</string>
+    <string name="Puer1">Puerta</string>
+    <string name="cancelar2">Cancelar</string>
+    <string name="Guardar2">Guardar</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>
